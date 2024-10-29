@@ -1,0 +1,202 @@
+.fspi-inquiry{
+	width: 100%;
+}
+
+.fspi-inquiry-form,.fspi-inquiry-form-detail,.fspi-setting-email,.fspi-general-setting{
+	width: 45%;
+	float: left;
+	margin-right: 5px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+
+.fspi-form-group{
+	overflow: auto;
+    background-color: #f1f1f1;
+    padding: 1em 16px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+
+.fspi-form-group  .fspi-form-lable{
+	width: 30%;
+	float: left;
+	padding: 6px;
+}
+
+.fspi-form-group  .fspi-form-input{
+	width: 65%;
+	float: left;
+}
+
+.fspi-inquiry-form-setting{
+	overflow: auto;
+    background-color: #f1f1f1;
+    padding: 1em 16px;
+    margin: 10px 0;
+    border:1px solid #ccc;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;*/
+}
+
+.fspi-inquiry-form-setting .fspi-form-lable{
+	width: 20%;
+	float: left;
+	padding: 6px;
+}
+.fspi-main-setting .nav-tab {
+    float: left;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    background: #d6d6d6;
+    white-space: nowrap;
+    padding: 1px 40px;
+    height: 36px;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #272727;
+    border-bottom-color: #777\9;
+    opacity: 1;
+    filter: alpha(opacity=30);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fspi-main-setting a.nav-tab.nav-tab-active {
+    position: relative;
+    background-color: #23282d;
+    color: #ffffff;
+}
+.fspi-inquiry-form, .fspi-inquiry-form-detail, .fspi-setting-email, .fspi-general-setting {
+    width: 45%;
+    float: left;
+    margin-right: 5px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+
+
+.fspi-setting h4 {
+    text-transform: uppercase;
+}
+.fspi-main-setting .nav-tab:first-child {
+    margin-left: 0;
+}
+.fspi-main-setting a.nav-tab.nav-tab-active {
+    position: relative;outline: none;
+}
+.fspi-main-setting h2.nav-tab-wrapper {
+    margin-bottom: 20px;
+    border: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.fspi-main-setting h3 {
+    text-align: center;
+}
+.fspi-setting {
+    width: 100%;
+    float: left;
+}
+.fspi-inquiry-form-setting .fspi-form-input{
+	width: 65%;
+	float: left;
+}
+.fspi-general-setting .fspi-form-group:first-child label.fspi-form-lable {
+    float: left;
+    display: inline-block;
+    padding-top: 4px;
+    width: 80%;
+}
+.fspi-general-setting .fspi-form-group:first-child .fspi-form-input {
+    width: 30px;
+    float: left;
+    display: inline-block;
+}
+.fspi-setting .fspi-inquiry-form, .fspi-setting .fspi-inquiry-form-detail {
+    min-height: 400px;
+}
+.fspi-setting-email .fspi-form-group:last-child .fspi-form-input,.fspi-general-setting .fspi-form-group:last-child .fspi-form-input,.fspi-inquiry-form .fspi-form-group:last-child .fspi-form-input{
+    width: 100%;
+    text-align: center;
+}
+.fspi-setting-email .fspi-form-group:last-child label.fspi-form-lable {
+    display: none;
+}
+.fspi-setting-email .fspi-form-group:last-child,.fspi-general-setting .fspi-form-group:last-child,.fspi-inquiry-form .fspi-form-group:last-child {
+    background: transparent;
+    box-shadow: none !important;margin-bottom: 0;
+}
+.fspi-setting input.button.button-primary {
+    border-radius: 0;
+    text-transform: uppercase;
+    height: 36px;
+    padding: 4px 21px;
+    box-shadow: 1px 1px 10px 2px #8a8a8a;
+    font-size: 13px;
+}
+/*.fspi-general-setting .fspi-form-group label.fspi-form-lable {
+    float: right;
+    width: 90%;
+}*/
+.fspi-general-setting .fspi-form-group:last-child {
+    margin-bottom: 0;
+}
+.fspi-general-setting,.fspi-setting-email {
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+.fspi-form-input-delete{
+	width: 5%;
+	float: left;
+	padding: 3px;
+}
+
+.fspi-form-input input[type=text],.fspi-form-input input[type=number],.fspi-form-input textarea,.fspi-form-input input[type=email]{
+	width: 100%;
+	padding: 5px;
+}
+
+.fspi-form-input input[type=checkbox]{
+	margin:5px;
+}
+
+.fspi-form-input-delete a{
+	text-decoration: none;
+}
+
+.fspi-form-input-delete a:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+#message{
+	margin: 10px 10px 10px 0;
+}
+.fspi-inquiry-form-detail .fspi-form-input-delete button {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    height: 31px;
+    position: relative;
+    top: -2px;
+}
+.fspi-inquiry-form-detail .fspi-form-input-delete button span.dashicons.dashicons-trash {
+    color: #fb0000;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.fspi-descriptn-reviw div#myTabContent p {
+    font-size: 16px;
+    color: #000;
+    opacity: 1;
+}

@@ -1,0 +1,23 @@
+.fspi-form-group{
+	overflow: auto;
+    background-color: #f1f1f1;
+    padding: 1em 16px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.fspi-form-lable{
+	width: 25%;
+	float: left;
+	padding: 6px;
+}
+
+.fspi-form-input{
+	width: 70%;
+	float: left;
+}
+
+.fspi-form-input input[type=text],.fspi-form-input input[type=number],.fspi-form-input textarea{
+	width: 100%;
+	padding: 5px;
+}

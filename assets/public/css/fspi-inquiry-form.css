@@ -1,0 +1,286 @@
+.fspi-inquiry-form-setting{
+	padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #e6e5e5;
+}
+
+.fspi-inquiry-form-setting input{
+	width: 100%;
+}
+
+.fspi-inquiry-form .fspi-inquiry-form-setting {
+    border: none;
+    padding: 0;
+}
+
+.fspi-inquiry-form .fspi-inquiry-form-setting select {
+    padding: 0px 10px;
+    height: 39px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.fspi-inquiry-form .fspi-inquiry-form-setting input {
+    padding: 0px 10px;
+    height: 39px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+}
+
+.fspi-inquiry-form h3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.fspi-inquiry-form {
+    padding-bottom: 10px;
+}
+
+.fspi-inquiry-form .fspi-inquiry-form-setting button {
+    margin: 20px auto 0px;
+    display: block;
+    float: none;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    border: none;
+    padding: 7px 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.fspi-inquiry-form .fspi-inquiry-form-setting label {
+    font-family: inherit;
+    font-size: 15px;
+}
+.fspi-modal {
+    top: 25px;
+}
+.fspi-product-description h3.lead {
+    font-size: 25px;
+}
+.fspi-product-description h3.lead {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.fspi-product-description span.lead {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.fspi-product-description p {
+    font-size: 15px;
+}
+.fspi-product-description p {
+    font-size: 15px;
+    margin-top: 6px;
+}
+.fspi-product-description button.all-deals {
+    padding: 8px 30px;
+    display: inline-block;
+    width: auto !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.fspi-product-description {
+    padding-top: 45px;
+}
+div#fspi-product-detail-content {
+    padding: 50px 0px;
+}
+span.rating-container label {
+    display: none;
+}
+
+.fspi-alert{
+	border-radius: 0;
+    padding: 10px 20px;
+    color: #524d4d;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/*----------------star-rating-----------------*/
+span.rating-container {
+  /* remove inline-block whitespace */
+  font-size: 0;
+  /* flip the order so we can use the + and ~ combinators */
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /* the hidden clearer */
+}
+span.rating-container * {
+  font-size: 1rem;
+}
+.star-cb-group > input {
+  display: none;
+}
+span.rating-container > input + label {
+  /* only enough room for the star */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 20px;
+  white-space: nowrap;
+  cursor: pointer;color: #fff; margin-bottom: 0;
+}
+span.rating-container > input + label:before {
+    content: "☆";
+    color: #888;
+    text-shadow: none;
+}
+span.rating-container > input + label:before {
+    display: block;
+    text-indent: -9999px;
+    content: "☆";
+    color: #888;
+    font-size: 21px;
+}
+div#fspi-product-detail-content p.comment-form-comment label {
+    width: 100%;
+}
+span.rating-container > input:checked ~ label:before, span.rating-container > input + label:hover ~ label:before, span.rating-container > input + label:hover:before {
+  content: "★";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+span.rating-container > .star-cb-clear + label {
+  text-indent: -9999px;
+  width: .5em;
+  margin-left: -.5em;
+}
+span.rating-container > .star-cb-clear + label:before {
+    width: 23px;
+}
+span.rating-container:hover > input + label:before {
+  content: "☆";
+  color: #888;
+  text-shadow: none;
+}
+span.rating-container:hover > input + label:hover ~ label:before, span.rating-container:hover > input + label:hover:before {
+  content: "★";
+  color: #e52;
+  text-shadow: 0 0 1px #333;
+}
+span.rating-container > input {
+    display: none;
+}
+span.rating-container * {
+    font-size: 1rem;
+}
+div#fspi-product-detail-content input#submit {
+    padding: 8px 30px;
+    display: inline-block;
+    width: auto !important;
+    border: none;
+    background-color: #0085ba;
+    color: #fff;
+}
+div#fspi-product-detail-content .col-md-6.mb-4 {
+    padding: 0;margin-bottom: 40px !important;
+}
+.fspi-product-image .p-4 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.fspi-product-image {
+    padding-right: 20px;
+}
+.fspi-product-image img.img-fluid {
+    max-width: 100%;
+    margin: 0;
+}
+.fspi-product-image {
+    padding-right: 40px;
+}
+.fspi-descriptn-reviw div#myTabContent p,.fspi-descriptn-reviw .tab-pane p {
+    font-size: 17px;
+    color: #868a95;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+}
+.fspi-descriptn-reviw .tab-content>.tab-pane {
+    opacity: 1;
+}
+.fspi-descriptn-reviw .tab-content>.active {
+    display: block;
+    opacity: 1;
+}
+.fspi-descriptn-reviw .tab-pane {
+    padding: 20px;text-align: left;
+}
+.fspi-descriptn-reviw ul#myTab {
+    border: none;
+}
+.fspi-descriptn-reviw li.nav-item a {
+    border: none;
+    color: #868a95;
+    font-size: 21px;
+}
+.fspi-descriptn-reviw li.nav-item.active a {
+    color: #000;border: none;
+}
+.fspi-descriptn-reviw ul#myTab {
+    border: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.fspi-descriptn-reviw ul#myTab li.nav-item {
+    margin: 0px 10px;
+}
+
+.fspi-loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 25px;
+  height: 25px;
+  float: right;
+  position: relative;
+  left: 15px;
+  bottom: 0px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fspi-alert{
+  width:100%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.close {
+  cursor: pointer;
+  z-index: 9999;
+  position: absolute;
+  float: right;
+  right: 5px;
+  background: white;
+  font-size: 20px;
+}
+
+.fspi-model .modal-dialog{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
